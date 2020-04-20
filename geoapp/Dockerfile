@@ -1,10 +1,3 @@
-#!/bin/bash
-
-set -e
-
-exec python importer.py &
-exec python app.py
-ajeetraina@Ajeet-Rainas-Macbook-Pro geoapp % cat Dockerfile
 FROM ubuntu
 RUN apt update
 
